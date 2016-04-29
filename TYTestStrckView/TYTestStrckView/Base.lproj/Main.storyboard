@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6Di-M2-BgS">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="nVt-5y-CNN">
+            <objects>
+                <viewController id="6Di-M2-BgS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GCr-nw-RCy"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Px-qW-7zf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HLC-yk-jHc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Zch-kS-iqO">
+                                <rect key="frame" x="12" y="32" width="576" height="556"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vJg-M4-oYb">
+                                        <rect key="frame" x="0.0" y="0.0" width="137" height="556"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E4g-Ht-dKq">
+                                                <rect key="frame" x="0.0" y="0.0" width="137" height="179"/>
+                                                <color key="backgroundColor" red="1" green="0.79384784750779713" blue="0.87535456027094927" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sZ9-aM-1oc">
+                                                <rect key="frame" x="0.0" y="189" width="137" height="179"/>
+                                                <color key="backgroundColor" red="1" green="0.79384784750779713" blue="0.87535456027094927" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="roo-rD-20p">
+                                                <rect key="frame" x="0.0" y="378" width="137" height="179"/>
+                                                <color key="backgroundColor" red="1" green="0.79384784750779713" blue="0.87535456027094927" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="0.10986342846825237" blue="0.35140131549891196" alpha="1" colorSpace="calibratedRGB"/>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B6Y-iU-220">
+                                        <rect key="frame" x="147" y="0.0" width="137" height="556"/>
+                                        <color key="backgroundColor" red="0.66006561748381576" green="1" blue="0.89680954542617175" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2tr-tJ-T22">
+                                        <rect key="frame" x="293" y="0.0" width="137" height="556"/>
+                                        <color key="backgroundColor" red="0.40792756824164222" green="0.41806405139974057" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6nh-q6-h0w">
+                                        <rect key="frame" x="440" y="0.0" width="137" height="556"/>
+                                        <color key="backgroundColor" red="1" green="0.27995232685617877" blue="0.59970228488993704" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.22140732290067666" blue="0.36506783996125447" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.34026980953403574" green="0.62463833191744988" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Zch-kS-iqO" firstAttribute="top" secondItem="GCr-nw-RCy" secondAttribute="bottom" constant="12" id="D3T-16-lYY"/>
+                            <constraint firstAttribute="trailing" secondItem="Zch-kS-iqO" secondAttribute="trailing" constant="12" id="Rpv-P3-2XT"/>
+                            <constraint firstItem="Zch-kS-iqO" firstAttribute="leading" secondItem="HLC-yk-jHc" secondAttribute="leading" constant="12" id="SSE-Cu-pPh"/>
+                            <constraint firstItem="9Px-qW-7zf" firstAttribute="top" secondItem="Zch-kS-iqO" secondAttribute="bottom" constant="12" id="Zsw-oH-JBr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X3y-Nb-P2S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="-327"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TYTestStrckView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="360"/>
+        </scene>
+    </scenes>
+</document>
